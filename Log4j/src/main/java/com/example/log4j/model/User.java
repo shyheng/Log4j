@@ -1,4 +1,4 @@
-package com.example.model;
+package com.example.log4j.model;
 
 public class User {
     private Integer id;
