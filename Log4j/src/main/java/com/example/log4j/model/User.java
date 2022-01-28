@@ -1,6 +1,9 @@
 package com.example.log4j.model;
 
+import com.baomidou.mybatisplus.annotation.TableLogic;
+
 public class User {
+
     private Integer id;
 
     private String name;
