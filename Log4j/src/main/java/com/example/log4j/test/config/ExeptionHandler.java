@@ -1,4 +1,4 @@
-package com.example.log4j.config;
+package com.example.log4j.test.config;
 
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

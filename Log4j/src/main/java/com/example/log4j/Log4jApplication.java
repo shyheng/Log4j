@@ -10,12 +10,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.Date;
 
 @SpringBootApplication
-@MapperScan(basePackages = "com.example.log4j.mapper")
+@MapperScan(basePackages = "com.example.log4j.mysql.mapper")
 @Log4j2
 public class Log4jApplication {
     public static void main(String[] args) {
         SpringApplication.run(Log4jApplication.class, args);
-        log.info(new Date());
     }
 
 }
