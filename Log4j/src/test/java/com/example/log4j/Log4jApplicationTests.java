@@ -12,12 +12,10 @@ import java.util.List;
 @SpringBootTest
 class Log4jApplicationTests {
 
-    @Autowired
-    UserMapper mapper;
 
     @Test
     void contextLoads() {
-        System.out.println(new UserService().list());
+
     }
 
 }
